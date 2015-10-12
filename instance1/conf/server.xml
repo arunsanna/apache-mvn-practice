@@ -84,7 +84,7 @@
     
     <Connector port="8444" protocol="org.apache.coyote.http11.Http11NioProtocol"
                maxThreads="150" SSLEnabled="true" scheme="https" secure="true"
-               clientAuth="false" sslProtocol="TLS" keystoreFile="/usr/local/java/apache-tomcat-8.0.27/mycert.cert" keystorePass="Chowdary@143" />
+               clientAuth="false" sslProtocol="TLS" />
    
 
     <!-- Define an AJP 1.3 Connector on port 8009 -->
